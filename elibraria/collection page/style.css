@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c1c1c1;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;    /* Center content vertically */
+}
+
+/* Collection and Category Section Styling */
+.collection-section, .category-section {
+    text-align: center;
+    padding: 20px;
+    width: 90%;             /* Slightly broader width for responsiveness */
+    max-width: 1200px;      /* Limit the max width */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px;    /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Back Button Styling */
+.back-button {
+    background-color: #8c8578;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #7a7568; /* Slightly darker on hover */
+    transform: scale(1.05);    /* Add a scaling effect */
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.2em; /* Slightly larger for visibility */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Grid Styling */
+.collection-grid, .category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Item Box Styling */
+.item, .category-item {
+    text-align: center;
+    color: #333;
+}
+
+/* Adjusted Image Styling */
+.collection-grid img, .category-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 10px;    /* Slightly rounder corners for consistency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Text Box Styling */
+.item p, .category-item p {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd; /* Add a border for definition */
+    border-radius: 5px;     /* Rounded corners */
+}
+
+/* Link Styling */
+.author, .published-date {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.author:hover, .published-date:hover {
+    color: #555;           /* Slight color change on hover */
+    text-decoration: underline;
+}
+
+/* Navigation Styling */
+.navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Next Button Styling */
+.next-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.8em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.next-button:hover {
+    background-color: #333;
+    transform: scale(1.1);  /* Slightly enlarge the button on hover */
+}
+

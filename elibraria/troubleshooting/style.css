@@ -1,0 +1,85 @@
+/* Basic Styling for the Body */
+body {
+    background-color: gray; /* Set background color to gray */
+    color: white; /* Text color set to white for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Troubleshooting Box Styling */
+.troubleshooting-box {
+    display: flex;
+    justify-content: space-between; /* Align items at the start and end */
+    align-items: center; /* Vertically center the items */
+    background-color: #444; /* Dark gray background for the box */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Header inside Troubleshooting Box */
+.header {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Back Button Styling */
+.back-button {
+    background-color: #666; /* Light gray button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #888; /* Darker gray on hover */
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #333;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #444;
+}
+
+.table td {
+    text-align: center;
+}
+
+/* Hover effect for rows */
+.table tr:hover {
+    background-color: #555;
+}
+
+/* Specific CSS classes for the items with white font color */
+.bios-config,
+.drivers-pack,
+.flash-update,
+.partitioning {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}

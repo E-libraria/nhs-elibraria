@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and HTML Styles */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Container with Background Image */
+.container {
+    background-image: url('https://pic.surf/fj2?fbclid=IwY2xjawG5Ed1leHRuA2FlbQIxMAABHX2fpctJ3j2qnZ29N9A5AC991z7ewQAlPtgxPW0CQQAhZ2ybTm5IKsRrGg_aem_Yt5hbOva5LfNFqZ_pXhzXw'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Button Link Styles */
+.button-link {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-link:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #333;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+
+/* Paragraph Style */
+p {
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .button-link {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}

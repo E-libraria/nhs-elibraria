@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Assembly</title>
+    <style>
+        /* Basic Styling for the Body */
+        body {
+            background-color: gray; /* Set background color to gray */
+            color: white; /* Set text color to white for contrast */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Hardware Assembly Header Styling */
+        .networking-header {
+            display: flex;
+            justify-content: space-between; /* Align items at the start and end */
+            align-items: center; /* Vertically center the items */
+            background-color: #444; /* Dark gray background for the box */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Header inside Hardware Assembly Box */
+        .header {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            background-color: #666; /* Light gray button */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline from link */
+            display: inline-block; /* Make the anchor behave like a button */
+        }
+
+        .back-button:hover {
+            background-color: #888; /* Darker gray on hover */
+        }
+
+        /* Table Styling */
+        table {
+            width: 95%; /* Set table to take up 95% of the page width */
+            height: 80vh; /* Set height to 80% of the viewport height */
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 22px; /* Increase font size further */
+        }
+
+        table, th, td {
+            border: 2px solid white; /* Increase the border thickness */
+        }
+
+        td {
+            padding: 30px; /* Increase padding to make cells larger */
+            text-align: left;
+        }
+
+        /* Set widths for columns */
+        td:first-child {
+            width: 15%; /* Make the first column narrower */
+        }
+
+        td:nth-child(2) {
+            width: 85%; /* Make the second column wider */
+        }
+
+        /* Alternating row colors */
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #444;
+        }
+
+        /* Hover effect for rows */
+        tr:hover {
+            background-color: #555;
+        }
+
+        /* Specific class for "Computer assembly procedures" */
+        .assembly-procedures {
+            color: white; /* Make text color white */
+        }
+
+        /* Specific class for "Computer disassembly procedures" */
+        .disassembly-procedures {
+            color: white; /* Make text color white */
+        }
+    </style>
+</head>
+<body>
+    <div class="networking-header">
+        <h1 class="header">HARDWARE ASSEMBLY</h1>
+        <a href="file:///C:/Users/marchael/Desktop/elibraria/category%20page/index.html" class="back-button">BACK</a>
+    </div>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td><a href="file:///C:/Users/marchael/Desktop/elibraria/hardare%20assembly%20pdf/Computer%20assembly%20procedures.pdf" target="_blank" class="assembly-procedures">Computer assembly procedures</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="file:///C:/Users/marchael/Desktop/elibraria/hardare%20assembly%20pdf/Computer%20disassembly%20procedures.pdf" target="_blank" class="disassembly-procedures">Computer disassembly procedures</a></td>
+        </tr>
+    </table>
+
+</body>
+</html>

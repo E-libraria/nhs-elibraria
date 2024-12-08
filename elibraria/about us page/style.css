@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2b48c; /* Light brown background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    position: relative; /* To position the back button absolutely */
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: row; /* Forces horizontal layout */
+    width: 90vw; /* Takes up most of the viewport width */
+    max-width: 1200px;
+    height: 80vh; /* Ensures the container has enough height */
+    background-color: #f4f1e8;
+    border-radius: 8px;
+    overflow: hidden; /* Keeps content within rounded edges */
+}
+
+
+.about-text {
+    flex: 1; /* Takes up half of the container */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f1e8; /* Background color for the text section */
+}
+
+
+.about-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.about-image {
+    flex: 1; /* Takes up the other half of the container */
+}
+
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire right half */
+}
+
+
+/* Styling for the Back button */
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline if used as a link */
+}
+
+
+.back-button:hover {
+    background-color: #555;
+}
+
+
+
+

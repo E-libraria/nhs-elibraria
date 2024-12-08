@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - E-Libraria</title>
+  <style>
+    /* Inline CSS to ensure styles are applied */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d2b48c; /* Light brown background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #333;
+      position: relative; /* Set to position for the back button */
+    }
+
+
+    .about-container {
+      display: flex;
+      width: 90vw; /* Takes up most of the viewport width */
+      max-width: 1200px;
+      height: 80vh; /* Ensures the container has enough height */
+      background-color: #f4f1e8;
+      border-radius: 8px;
+      overflow: hidden; /* Keeps content within rounded edges */
+    }
+
+
+    .about-text {
+      flex: 1; /* Takes up half of the container */
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #f4f1e8; /* Background color for the text section */
+    }
+
+
+    .about-text h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+
+    .about-image {
+      flex: 1; /* Takes up the other half of the container */
+    }
+
+
+    .about-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the image covers the entire right half */
+    }
+
+
+    /* Styling for the Back button */
+    .back-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+
+    .back-button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Back button -->
+  <button class="back-button" onclick="window.history.back()">Back</button>
+
+
+  <div class="about-container">
+    <div class="about-text">
+      <h1>CONTACT US</h1>
+      <p>Social Media: E-Libraria</p>
+      <p>Email: E-Libraria@gmail.com</p>
+    </div>
+    <div class="about-image">
+      <img src="https://th.bing.com/th/id/OIP.Jb84QvzJeZgSDk2Pn9YGSQHaKX?rs=1&pid=ImgDetMain" alt="Library Image">
+    </div>
+  </div>
+</body>
+</html>
+
+

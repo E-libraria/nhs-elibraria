@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troubleshooting UI</title>
+    <style>
+        /* Basic Styling for the Body */
+        body {
+            background-color: gray; /* Set background color to gray */
+            color: white; /* Text color set to white for contrast */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Troubleshooting Box Styling */
+        .troubleshooting-box {
+            display: flex;
+            justify-content: space-between; /* Align items at the start and end */
+            align-items: center; /* Vertically center the items */
+            background-color: #444; /* Dark gray background for the box */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Header inside Troubleshooting Box */
+        .header {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            background-color: #666; /* Light gray button */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline from link */
+            display: inline-block; /* Make the anchor behave like a button */
+        }
+
+        .back-button:hover {
+            background-color: #888; /* Darker gray on hover */
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%; /* Set table to take up 100% of the page width */
+            height: 80vh; /* Set height to 80% of the viewport height */
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 20px; /* Increase font size for larger table text */
+        }
+
+        table, th, td {
+            border: 2px solid white; /* Make the table border thicker */
+        }
+
+        td {
+            padding: 20px; /* Increase padding to make table cells larger */
+            text-align: center; /* Align numbers to the center */
+        }
+
+        /* Set widths for columns */
+        td:first-child {
+            width: 15%; /* Make the first column narrower */
+        }
+
+        td:nth-child(2) {
+            width: 85%; /* Make the second column wider */
+        }
+
+        /* Alternating row colors */
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #444;
+        }
+
+        /* Hover effect for rows */
+        tr:hover {
+            background-color: #555;
+        }
+
+        /* Specific CSS classes for the items with white font color */
+        .bios-config,
+        .drivers-pack,
+        .flash-update,
+        .partitioning {
+            color: white;
+            text-decoration: none; /* Remove underline from links */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="troubleshooting-box">
+        <h1 class="header">TROUBLESHOOTING</h1>
+        <!-- Back button with hyperlink -->
+        <a href="file:///C:/Users/marchael/Desktop/elibraria/category%20page/index.html" class="back-button">BACK</a>
+    </div>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td><a href="file:///C:/Users/marchael/Desktop/elibraria/troubleshooting%20pdf/BIOS%20configuration%20procedures.pdf" target="_blank" class="bios-config">BIOS configuration procedures</a></td> <!-- Add class here -->
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="file:///C:/Users/marchael/Desktop/elibraria/troubleshooting%20pdf/Driver's%20Pack.pdf" target="_blank" class="drivers-pack">Driver's Pack</a></td> <!-- Add class here -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><a href="file:///C:/Users/marchael/Desktop/elibraria/troubleshooting%20pdf/Flash%20Update%20BIOS_UEFI.pdf" target="_blank" class="flash-update">Flash Update BIOS_UEFI</a></td> <!-- Add class here -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="file:///C:/Users/marchael/Desktop/elibraria/troubleshooting%20pdf/Partitioning.pdf" target="_blank" class="partitioning">Partitioning</a></td> <!-- Add class here -->
+        </tr>
+    </table>
+
+</body>
+</html>

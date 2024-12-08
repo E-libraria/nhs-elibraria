@@ -1,0 +1,186 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    position: relative; /* Necessary for positioning the home button */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #f5efe6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top */
+    color: #333;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #222;
+}
+
+/* List Button Styling */
+.list-btn {
+    display: block;
+    margin: 0 auto 20px auto; /* Center and add spacing below the button */
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #8c8578;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 80%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.list-btn:hover {
+    background-color: #7a7568;
+    transform: translateY(-2px);
+}
+
+/* Sidebar Button Styling (for About Us and Contact) */
+.sidebar-btn {
+    display: block;
+    margin: 0 auto 15px auto; /* Center and add spacing below the button */
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #8c8578;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 80%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-btn:hover {
+    background-color: #7a7568;
+    transform: translateY(-2px);
+}
+
+/* Menu styling */
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    padding: 8px 15px;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Category button styling */
+.category-btn {
+    background-color: #8c8578;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+    border-radius: 25px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.category-btn:hover {
+    background-color: #7a7568;
+    transform: translateY(-2px);
+}
+
+/* Main content styling */
+.main-content {
+    flex: 1;
+    background-image: url('https://pic.surf/fj2?fbclid=IwY2xjawG5Ed1leHRuA2FlbQIxMAABHX2fpctJ3j2qnZ29N9A5AC991z7ewQAlPtgxPW0CQQAhZ2ybTm5IKsRrGg_aem_Yt5hbOva5LfNFqZ_pXhzXw');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+/* Sign-up link */
+.sign-up {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.sign-up:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Home Button Styling */
+.home-btn {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background-color: #8c8578;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home-btn:hover {
+    background-color: #7a7568;
+    transform: translateY(-2px);
+}

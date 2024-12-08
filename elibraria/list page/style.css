@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5deb3; /* Light brown background */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    width: 80%; /* Set a responsive width */
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #444; /* Dark background for button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #666;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #444; /* Darker text for readability */
+}
+
+.word-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 500px; /* Ensures scrollable content if necessary */
+    overflow-y: auto;
+}
+
+.word-list li {
+    background-color: #f0e68c; /* Light khaki for list items */
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+}
+
+.word-list li:nth-child(even) {
+    background-color: #ffe4b5; /* Alternating light orange color */
+}
+
+.word-list li:hover {
+    background-color: #ffd700; /* Highlight on hover */
+    cursor: default;
+}
